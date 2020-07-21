@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- TODO найти нормальные иконки -->
+    <item
+        android:id="@+id/aaaFragment"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="List" />
+
+    <item
+        android:id="@+id/bbbFragment"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Grid" />
+
+    <item
+        android:id="@+id/cccFragment"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Storage" />
+
+    <item
+        android:id="@+id/dddFragment"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Profile" />
+
+</menu>
