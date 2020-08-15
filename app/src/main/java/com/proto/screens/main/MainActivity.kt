@@ -1,4 +1,4 @@
-package com.proto.ui.activity
+package com.proto.screens.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

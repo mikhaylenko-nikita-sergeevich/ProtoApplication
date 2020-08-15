@@ -5,7 +5,7 @@
     android:id="@+id/layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activity.MainActivity">
+    tools:context=".screens.main.MainActivity">
 
     <!-- DON'T REPLACE ON FragmentContainerView, IT'S PRODUCE A BUG TO FIND NAVIGATION HOST -->
     <fragment

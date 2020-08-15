@@ -1,9 +1,10 @@
-package com.proto.ui.activity
+package com.proto.screens.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.proto.R
+import com.proto.screens.onboarding.OnboardingActivity
 import kotlinx.coroutines.*
 import kotlin.concurrent.thread
 
@@ -39,6 +40,7 @@ class SplashActivity : AppCompatActivity() {
 
     private fun navigateToOnboardingScreen() {
         startActivity(Intent(this, OnboardingActivity::class.java))
+        finish()
     }
 
 }

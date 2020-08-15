@@ -1,9 +1,23 @@
 <resources>
-<!--    App -->
+    <!--    App         -->
     <string name="app_name">ProtoApplication</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-<!--    Splash  -->
+    <!--    Splash      -->
     <string name="splash_status_label">data loading…</string>
+
+    <!--    Onboarding  -->
+    <string name="onboarding_page_one_title">Hello world!</string>
+    <string name="onboarding_page_one_text">It\'s sample of application for demonstrating code and
+        sample of different ui components</string>
+
+    <string name="onboarding_page_two_title">Permission</string>
+    <string name="onboarding_page_two_text">Just sample of runtime permission request</string>
+    <string name="onboarding_page_two_permission_btn_label_not_granted">allow geo permissions</string>
+    <string name="onboarding_page_two_permission_btn_label_granted">permission granted</string>
+
+    <string name="onboarding_page_three_title">End of onboarding</string>
+    <string name="onboarding_page_three_text">Click to \'continue\' and go to main activity</string>
+    <string name="onboarding_page_three_continue_button_label">continue</string>
 
 </resources>
