@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.proto">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:name=".ProtoApplication"
@@ -14,15 +14,20 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".screens.splash.SplashActivity"
+            android:name="com.proto.presentation.screen.splash.SplashActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".screens.onboarding.OnboardingActivity" />
-        <activity android:name=".screens.main.MainActivity" />
+
+        <activity
+            android:name="com.proto.presentation.screen.onboarding.OnboardingActivity"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.proto.presentation.screen.main.MainActivity" />
 
     </application>
 

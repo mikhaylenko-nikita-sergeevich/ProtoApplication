@@ -1,4 +1,4 @@
-package com.proto.screens.main.fragment
+package com.proto.presentation.screen.main.page
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,10 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import com.proto.R
 
-//TODO: таблица с карточками
-class BbbFragment : Fragment() {
+class DetailInfoFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? = inflater.inflate(R.layout.fragment_bbb, container, false)
+    ): View? = inflater.inflate(R.layout.fragment_eee, container, false)
 }

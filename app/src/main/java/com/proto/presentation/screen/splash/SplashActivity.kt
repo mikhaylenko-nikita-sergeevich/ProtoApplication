@@ -1,10 +1,10 @@
-package com.proto.screens.splash
+package com.proto.presentation.screen.splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.proto.R
-import com.proto.screens.onboarding.OnboardingActivity
+import com.proto.presentation.screen.onboarding.OnboardingActivity
 import kotlinx.coroutines.*
 import kotlin.concurrent.thread
 

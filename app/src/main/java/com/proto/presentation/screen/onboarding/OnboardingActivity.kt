@@ -1,4 +1,4 @@
-package com.proto.screens.onboarding
+package com.proto.presentation.screen.onboarding
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

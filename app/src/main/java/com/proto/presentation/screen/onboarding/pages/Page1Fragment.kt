@@ -1,4 +1,4 @@
-package com.proto.screens.onboarding.pages
+package com.proto.presentation.screen.onboarding.pages
 
 import android.Manifest
 import android.content.pm.PackageManager

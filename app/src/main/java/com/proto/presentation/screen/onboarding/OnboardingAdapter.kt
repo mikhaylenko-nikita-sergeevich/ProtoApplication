@@ -1,11 +1,11 @@
-package com.proto.screens.onboarding
+package com.proto.presentation.screen.onboarding
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.proto.screens.onboarding.pages.Page0Fragment
-import com.proto.screens.onboarding.pages.Page1Fragment
-import com.proto.screens.onboarding.pages.Page2Fragment
+import com.proto.presentation.screen.onboarding.pages.Page0Fragment
+import com.proto.presentation.screen.onboarding.pages.Page1Fragment
+import com.proto.presentation.screen.onboarding.pages.Page2Fragment
 
 class OnboardingAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity) {
 

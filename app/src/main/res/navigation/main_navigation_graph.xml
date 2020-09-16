@@ -7,32 +7,32 @@
 
     <fragment
         android:id="@+id/aaaFragment"
-        android:name="com.proto.screens.main.fragment.AaaFragment"
+        android:name="com.proto.presentation.screen.main.page.aaa.AaaFragment"
         android:label="fragment_aaa"
         tools:layout="@layout/fragment_aaa" />
     <fragment
         android:id="@+id/bbbFragment"
-        android:name="com.proto.screens.main.fragment.BbbFragment"
+        android:name="com.proto.presentation.screen.main.page.bbb.BbbFragment"
         android:label="fragment_bbb"
         tools:layout="@layout/fragment_bbb" />
     <fragment
         android:id="@+id/cccFragment"
-        android:name="com.proto.screens.main.fragment.CccFragment"
+        android:name="com.proto.presentation.screen.main.page.ccc.CccFragment"
         android:label="fragment_ccc"
         tools:layout="@layout/fragment_ccc" />
     <fragment
         android:id="@+id/dddFragment"
-        android:name="com.proto.screens.main.fragment.DddFragment"
+        android:name="com.proto.presentation.screen.main.page.ddd.DddFragment"
         android:label="fragment_ddd"
         tools:layout="@layout/fragment_ddd" />
     <activity
         android:id="@+id/splashActivity"
-        android:name="com.proto.screens.splash.SplashActivity"
+        android:name="com.proto.presentation.screen.splash.SplashActivity"
         android:label="activity_splash"
         tools:layout="@layout/activity_splash" />
     <activity
         android:id="@+id/onboardingActivity"
-        android:name="com.proto.screens.onboarding.OnboardingActivity"
+        android:name="com.proto.presentation.screen.onboarding.OnboardingActivity"
         android:label="activity_onboarding"
         tools:layout="@layout/activity_onboarding" />
 </navigation>
